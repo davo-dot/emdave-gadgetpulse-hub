@@ -13,16 +13,16 @@
    <nav class="bg-white shadow">
   <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
     <a href="index.html" class="text-2xl font-bold text-blue-600">
-      <img src="logo.png" alt="EmdaveTechFlow">
+      <img src="logo.png" alt="EmdaveTechFlow Logo" class="logo">
     </a>
 
     <!-- Desktop menu -->
-    <ul class="hidden md:flex space-x-4 text-sm">
+    <ul class="hidden md:flex space-x-4 text-sm md:text-base">
       <li><a href="index.html" class="text-slate-700 hover:text-blue-600">Home</a></li>
       <li><a href="about.html" class="text-slate-700 hover:text-blue-600">About</a></li>
-      <li><a href="reviews-resources.html" class="text-slate-700 hover:text-blue-600">Reviews&nbsp;&amp;&nbsp;Resources</a></li>
+      <li><a href="reviews-resources.html" class="text-slate-700 hover:text-blue-600">Reviews & Resources</a></li>
       <li><a href="services.html" class="text-slate-700 hover:text-blue-600">Services</a></li>
-      <li><a href="tech-for-the-aged.html" class="text-slate-700 hover:text-blue-600">Tech&nbsp;for&nbsp;the&nbsp;Aged</a></li>
+      <li><a href="tech-for-the-aged.html" class="text-slate-700 hover:text-blue-600">Tech for the Aged</a></li>
       <li><a href="blog.html" class="text-slate-700 hover:text-blue-600">Blog</a></li>
       <li><a href="contact.html" class="text-slate-700 hover:text-blue-600">Contact</a></li>
       <li><a href="legal.html" class="text-slate-700 hover:text-blue-600">Legal</a></li>
@@ -46,6 +46,13 @@
     <li><a href="legal.html">Legal</a></li>
   </ul>
 </nav>
+
+<!-- Tiny JS for mobile toggle -->
+<script>
+  document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+</script>
 
     <!-- Hero -->
     <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
