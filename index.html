@@ -21,19 +21,38 @@
 <nav class="bg-white shadow">
   <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
     <a href="index.html" class="text-2xl font-bold text-blue-600">
-      <img src="logo.png" alt="EmdaveTechFlow Logo" class="logo">
+      <img src="logo.png" alt="EmdaveTechFlow">
     </a>
-    <div class="space-x-4">
-      <a href="index.html" class="text-slate-700 hover:text-blue-600">Home</a>
-      <a href="about.html" class="text-slate-700 hover:text-blue-600">About</a>
-      <a href="reviews-resources.html" class="text-slate-700 hover:text-blue-600">Reviews & Resources</a>
-      <a href="services.html" class="text-slate-700 hover:text-blue-600">Services</a>
-      <a href="tech-for-the-aged.html" class="text-slate-700 hover:text-blue-600">Tech for the Aged</a>
-      <a href="blog.html" class="text-slate-700 hover:text-blue-600">Blog</a>
-      <a href="contact.html" class="text-slate-700 hover:text-blue-600 font-semibold">Contact</a>
-      <a href="legal.html" class="text-slate-700 hover:text-blue-600">Legal</a>
-    </div>
+
+    <!-- Desktop menu -->
+    <ul class="hidden md:flex space-x-4 text-sm">
+      <li><a href="index.html" class="text-slate-700 hover:text-blue-600">Home</a></li>
+      <li><a href="about.html" class="text-slate-700 hover:text-blue-600">About</a></li>
+      <li><a href="reviews-resources.html" class="text-slate-700 hover:text-blue-600">Reviews&nbsp;&amp;&nbsp;Resources</a></li>
+      <li><a href="services.html" class="text-slate-700 hover:text-blue-600">Services</a></li>
+      <li><a href="tech-for-the-aged.html" class="text-slate-700 hover:text-blue-600">Tech&nbsp;for&nbsp;the&nbsp;Aged</a></li>
+      <li><a href="blog.html" class="text-slate-700 hover:text-blue-600">Blog</a></li>
+      <li><a href="contact.html" class="text-slate-700 hover:text-blue-600">Contact</a></li>
+      <li><a href="legal.html" class="text-slate-700 hover:text-blue-600">Legal</a></li>
+    </ul>
+
+    <!-- Mobile hamburger -->
+    <button id="mobile-menu-btn" class="md:hidden text-slate-700 focus:outline-none">
+      ☰
+    </button>
   </div>
+
+  <!-- Mobile dropdown -->
+  <ul id="mobile-menu" class="md:hidden hidden bg-white border-t space-y-2 px-4 py-2">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="reviews-resources.html">Reviews & Resources</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="tech-for-the-aged.html">Tech for the Aged</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="legal.html">Legal</a></li>
+  </ul>
 </nav>
     <!-- Hero -->
     <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
